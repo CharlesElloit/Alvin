@@ -24,18 +24,21 @@ How to run locally
  - **Create a python venv**: Run `python3 -m venv venv`
  - **Activate venv**: Run `venv\Scripts\activate`
  - **Install all packages** Run `pip install -r requirements.txt`
+ - **Start project** Run `python3 Alvin.py`
 
 **macOS**
  - **Install virtualenv** Run `pip install virtualenv`
  - **Create a python venv**: Run `virtualenv venv`
  - **Activate venv**: Run `source venv/bin/activate`
  - **Install all packages** Run `pip install -r requirements.txt`
+ - **Start project** Run `python3 Alvin.py`
 
 **Linux**
  - **Install virtualenv** Run `pip install virtualenv`
  - **Create a python venv**: Run `virtualenv venv`
  - **Activate venv**: Run `source venv/bin/activate`
  - **Install all packages** Run `pip install -r requirements.txt`
+ - **Start project** Run `python3 Alvin.py`
 
 ## Issues
 We use GitHub issues to track public bugs. Please ensure your description is clear and has sufficient instructions to be able to reproduce the issue. Report a bug by <a href="https://github.com/Pro-dev-org/Alvin/issues">opening a new issue</a>; it's that easy!
