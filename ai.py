@@ -38,15 +38,17 @@ class AI():
     print("Say something")
     with self.m as source:
       audio = self.r.listen(source)
-    
+      phrase = ""
+      
     try:
       phrase = self.r.recognize_google(audio, show_all=False, language="en_USA")
       sentence = f"Have got it, you said {phrase}"
       self.engine.say(sentence)
       self.engine.runAndWait()
-    except e as error:
-      print(e)
-      sentence = "Sorry i didn't catch that. Try again."
+    except Exception as error:
+      print("Exception" + str(error))
+      sentence = "Sorry i didn't catch that."
       self.engine.say(sentence)
       self.engine.runAndWait()
+        
     return phrase
